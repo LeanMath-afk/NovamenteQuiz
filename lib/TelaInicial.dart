@@ -30,7 +30,7 @@ class StartPage extends StatelessWidget {
               ),
               SizedBox(height: 20),
               Text(
-                'Teste seus conhecimentos em várias áreas! Responda às perguntas e veja sua pontuação ao final.',
+                'Teste seus conhecimentos em várias áreas! Responda às perguntas e veja sua pontuação no final.',
                 style: TextStyle(fontSize: 18),
                 textAlign: TextAlign.center,
               ),

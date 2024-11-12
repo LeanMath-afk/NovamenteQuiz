@@ -23,51 +23,51 @@ class _QuizPageState extends State<QuizPage> {
       'answers': [
         {'text': 'Vênus', 'isCorrect': false},
         {'text': 'Mercúrio', 'isCorrect': true},
-        {'text': 'Marte', 'isCorrect': false},
+        {'text': 'Terra', 'isCorrect': false},
       ],
     },
     {
       'question': 'Qual é a moeda do EUA?',
-      'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/USDnotes.png/1280px-USDnotes.png',
+      'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/US10dollarbill-Series_2004A.jpg/1920px-US10dollarbill-Series_2004A.jpg',
       'answers': [
+        {'text': 'Euro', 'isCorrect': false},
+        {'text': 'Real', 'isCorrect': false},
         {'text': 'Dolar', 'isCorrect': true},
-        {'text': 'Money', 'isCorrect': false},
-        {'text': 'Cash', 'isCorrect': false},
       ],
     },
     {
       'question': 'Qual é a capital da Bahia?',
       'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Bahia_in_Brazil.svg/1024px-Bahia_in_Brazil.svg.png',
       'answers': [
-        {'text': 'Salvador', 'isCorrect': true},
         {'text': 'Xique-Xique', 'isCorrect': false},
         {'text': 'Feira de Santana', 'isCorrect': false},
+        {'text': 'Salvador', 'isCorrect': true},
       ],
     },
     {
       'question': 'Quanto é 2x3+6?',
       'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/1280px-Venn_A_intersect_B.svg.png',
       'answers': [
+        {'text': '18', 'isCorrect': false},
         {'text': '12', 'isCorrect': true},
-        {'text': '2', 'isCorrect': false},
-        {'text': '106', 'isCorrect': false},
+        {'text': '11', 'isCorrect': false},
       ],
     },
     {
       'question': 'Quem escreveu "Dom Casmurro"?',
       'image': 'https://upload.wikimedia.org/wikipedia/commons/d/d3/BibliothekSG.jpg',
       'answers': [
+        {'text': 'Monteiro Lobato', 'isCorrect': false},
+        {'text': 'Lima Barreto', 'isCorrect': false},
         {'text': 'Machado de Assis', 'isCorrect': true},
-        {'text': 'Leandro Matheus', 'isCorrect': false},
-        {'text': 'Paula Tejano', 'isCorrect': false},
       ],
     },
     {
       'question': 'Qual é a fórmula química da água?',
       'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Fluorescence_rainbow.JPG/1280px-Fluorescence_rainbow.JPG',
       'answers': [
-        {'text': 'H2O', 'isCorrect': true},
         {'text': 'O2', 'isCorrect': false},
+         {'text': 'H2O', 'isCorrect': true},
         {'text': 'CO2', 'isCorrect': false},
       ],
     },
@@ -76,8 +76,8 @@ class _QuizPageState extends State<QuizPage> {
       'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Association_of_National_Olympic_Committees.svg/1920px-Association_of_National_Olympic_Committees.svg.png',
       'answers': [
         {'text': '5', 'isCorrect': false},
-        {'text': '6', 'isCorrect': false},
-        {'text': '7', 'isCorrect': true},
+        {'text': '6', 'isCorrect': true},
+        {'text': '7', 'isCorrect': false},
       ],
     },
     {
@@ -93,9 +93,9 @@ class _QuizPageState extends State<QuizPage> {
       'question': 'Qual é a capital do Japão?',
       'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1920px-Flag_of_Japan.svg.png',
       'answers': [
+        {'text': 'Osaka', 'isCorrect': false},
         {'text': 'Tóquio', 'isCorrect': true},
-        {'text': 'Tekomo nakama', 'isCorrect': false},
-        {'text': 'Tesoku nashota', 'isCorrect': false},
+        {'text': 'Kyoto', 'isCorrect': false},
       ],
     },
   ];
