@@ -17,9 +17,9 @@ class StartPage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Image.network(
-                'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Quiz_interativo.jpg/1920px-Quiz_interativo.jpg',
-                height: 300,
-                width: 450,
+                'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Jardin_du_Musee_Rodin_Paris_Le_Penseur_20050402_%2802%29.jpg/800px-Jardin_du_Musee_Rodin_Paris_Le_Penseur_20050402_%2802%29.jpg',
+                height: 450,
+                width: 300,
                 fit: BoxFit.cover,
               ),
               SizedBox(height: 20),
