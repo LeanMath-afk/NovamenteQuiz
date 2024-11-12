@@ -42,7 +42,7 @@ class Result extends StatelessWidget {
                 MaterialPageRoute(builder: (context) => StartPage()),
               );
             },
-            child: Text('Finalizar Quiz'),
+            child: Text('Retornar a tela inicial'),
           ),
         ],
       ),
